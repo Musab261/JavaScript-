@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction to JavaScript</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #333;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    p {
+      font-size: 18px;
+      color: #555;
+    }
+  </style>
+  <script src="script.js"></script>
+  <script>alert("Head");</script>
+</head>
+<script>alert("Body (before your page's HTML)");</script>
+<body>
+  <h1>Introduction to JavaScript</h1>
+  <p>JavaScript makes web pages interactive and dynamic!</p>
+  <button onclick="changeText()">Click Me</button>
+  <p id="demo">This text will change when you click the button.</p>
+  <script>alert("Body (inside your page's HTML)");</script>
+</body>
+<script>alert("Body (after your page's HTML)");</script>
+</html>
